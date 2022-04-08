@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.14.1
+
+### Patch Changes
+
+- [#1061](https://github.com/Shopify/hydrogen/pull/1061) [`a4aa3887`](https://github.com/Shopify/hydrogen/commit/a4aa3887be9f448ec1f4322fadb9821e0d19a0b5) Thanks [@jplhomer](https://github.com/jplhomer)! - Support script tags in index.html that contain line breaks
+
+* [#1049](https://github.com/Shopify/hydrogen/pull/1049) [`b88a885d`](https://github.com/Shopify/hydrogen/commit/b88a885d6b062209497a97d8ce7bcd438787d53c) Thanks [@wizardlyhel](https://github.com/wizardlyhel)! - Support sub request cache control header `stale-while-revalidate` everywhere
+
+- [#1047](https://github.com/Shopify/hydrogen/pull/1047) [`5268bf85`](https://github.com/Shopify/hydrogen/commit/5268bf85f61f8abf0e97788b7ae925ad4f3183b2) Thanks [@jplhomer](https://github.com/jplhomer)! - Restore scroll position when navigating using the back and forward buttons.
+
+* [#1062](https://github.com/Shopify/hydrogen/pull/1062) [`cc172ae7`](https://github.com/Shopify/hydrogen/commit/cc172ae778bad0d654adcd2f41d4a548d1d94a0a) Thanks [@jplhomer](https://github.com/jplhomer)! - Fix encoding of quotes in CSS Modules which caused hydration errors
+
+- [#1046](https://github.com/Shopify/hydrogen/pull/1046) [`3947d53a`](https://github.com/Shopify/hydrogen/commit/3947d53a99868a1e218bfab958b824ce0484615a) Thanks [@michenly](https://github.com/michenly)! - Fixed server Cookie bug where initializing with empty string will resulted in 1 item in the Cookies Map.
+
+* [#1059](https://github.com/Shopify/hydrogen/pull/1059) [`401f329d`](https://github.com/Shopify/hydrogen/commit/401f329d331bebc4842204d4df39c4dd6797b4e1) Thanks [@frandiox](https://github.com/frandiox)! - Fix link prefetch mismatch due to query-string
+
 ## 0.14.0
 
 ### Minor Changes
